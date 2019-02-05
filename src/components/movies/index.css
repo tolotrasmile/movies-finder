@@ -1,0 +1,16 @@
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies input {
+  background-color: rgba(10, 10, 10, 0.5);
+  margin-bottom: 1rem;
+  border: 1px solid dimgrey;
+  padding: 1em;
+  color: white;
+}
+
+.movies input:focus {
+  background-color: rgba(50, 50, 50, 0.5);
+}

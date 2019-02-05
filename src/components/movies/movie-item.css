@@ -1,0 +1,22 @@
+.movie-item {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(22, 21, 26);
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 500ms;
+}
+
+.movie-item:hover {
+  background-color: rgb(44, 42, 52);
+  cursor: pointer;
+}
+
+.movie-item-image {
+  margin-right: 20px;
+}
+
+.movie-item-image img {
+  width: 100px;
+}
